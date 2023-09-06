@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-image: url("https://media.istockphoto.com/photos/guitar-and-blank-grunge-stage-background-picture-id613766442?k=6&m=613766442&s=612x612&w=0&h=sgRqquFndUm2c8lMeOC_LEQ-UVRrAJngQQrozW4djPo=");
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+    width:100vw;
+
+}
+.navbar{
+    width:1200px;
+    height:75px;
+
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    padding-left: 0px;
+    color:yellow;
+    font-family:Georgia, 'Times New Roman';
+    font-size: 35px;
+    margin-left: 2px;
+    padding-top: 10px;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size:17px;
+
+    
+}
+ul li a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:blue;
+}
+.content{
+    width:1200px;
+    height: auto;
+    margin-top: 100px;
+    color: white;
+    margin-left: 40px;
+
+}
+.span-el{
+    color:rgb(26, 253, 98);
+    font-size: 40px;
+}
+.heading{
+    font-size: 40px;
+    font-family: Arial;
+
+}
+.para{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:cursive;
+
+}
+.cn1{
+    font-size: 18px;
+    background:lightcoral;
+    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cn2{
+    font-size: 18px;
+    background: rgb(192, 255, 243);
+    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.anchor-el{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    font-size: 18px;
+    font-weight:bold
+}
+.cn1:hover{
+    background:greenyellow;
+}
+.cn2:hover{
+    background:greenyellow;
+}
+.image{
+  margin-top:30px;
+  margin-left: 40px;
+  width: 400px;
+
+}
